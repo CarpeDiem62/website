@@ -47,7 +47,7 @@ public class LoginCommand implements ActionCommand {
 
 			page = Resourcer.getString("path.page.main");
 			String status = Resourcer.getString("sql.request.changeActivityOnTrue");
-			LoginLogic.ChangeActivityStatus(user.getId(), status);
+			//LoginLogic.ChangeActivityStatus(user.getId(), status);
 			setSessionData(request);
 		} else {
 			request.setAttribute("errorLoginPassMessage", Resourcer.getString("message.loginerror"));
