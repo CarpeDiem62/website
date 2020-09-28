@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context antiResourceLocking="true" privileged="true" cookies="true" path="/">
+<Resource name="jdbc/mypool" auth="Container"
+type="javax.sql.DataSource"
+driverClassName="org.postgresql.Driver"
+url="jdbc:postgresql://ec2-54-246-87-132.eu-west-1.compute.amazonaws.com:5432/d8c7cm36m3cuca"
+username="dqwtsxkcgfxbnb"
+password="c1030b45dc2f82fd8d0753624128827a1a6d63a1b6b5c294593f821720d6951b"
+maxActive="20" maxIdle="10" maxWait="-1"/>
+</Context>
